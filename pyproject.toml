@@ -6,12 +6,12 @@ authors = ["ankit <nnkitsaini@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-pytest = "^6.2.2"
 
 [tool.poetry.scripts]
-completer_register = 'complete.register_completer:main'
+shell_register = 'complete.register_completer:main'
 
 [tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
